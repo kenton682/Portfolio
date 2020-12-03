@@ -5,9 +5,20 @@ import "./Body.css";
 
 const Body = () => {
   return (
-    <div className="body-container" id="projects">
+    <div className="body-container">
       <Skills />
-      <Netflix />
+      <div className="cards" id="projects">
+        <Netflix />
+        <Netflix />
+        <Netflix />
+        <Netflix />
+      </div>
+      <div className="cards">
+        <Netflix />
+        <Netflix />
+        <Netflix />
+        <Netflix />
+      </div>
     </div>
   );
 };
