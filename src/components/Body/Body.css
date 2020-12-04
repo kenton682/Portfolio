@@ -6,15 +6,21 @@
   position: relative;
   height: auto;
   width: 100%;
-  background-color: purple;
   justify-content: center;
   align-items: center;
+  background-image: linear-gradient(#00b3b3, #004d4d);
 }
 
 .cards {
-  width: 100%;
-  background-color: black;
+  width: 60%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+}
+
+.projects-title {
+  color: #2a0080;
+  margin-right: 130px;
+  font-size: 5rem;
+  margin-left: 130px;
 }

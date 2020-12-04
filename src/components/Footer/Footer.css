@@ -1,7 +1,7 @@
 .footer-container {
   display: flex;
-  background-color: white;
-  height: 150px;
+  background-color: #003330;
+  height: 154px;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -10,4 +10,12 @@
 .content {
   margin: 0;
   padding: 10px;
+}
+
+.footer-container h1 {
+  color: #9966ff;
+}
+
+.footer-container h3 {
+  color: #ccb3ff;
 }

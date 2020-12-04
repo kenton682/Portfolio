@@ -9,7 +9,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  color: white;
+  color: #2a0080;
   transform: translate(-50%, -50%);
   font-size: 1.8rem;
   text-align: center;
@@ -32,10 +32,10 @@
 .button {
   text-decoration: none;
   border-radius: 50px;
-  background: purple;
+  background: #b38600;
   white-space: nowrap;
   padding: 12px 40px;
-  color: black;
+  color: #2a0080;
   font-size: 20px;
   outline: none;
   border: none;
@@ -44,5 +44,5 @@
 }
 .button:hover {
   transition: all 0.2s ease-in-out;
-  background-color: pink;
+  background-color: #e6ac00;
 }

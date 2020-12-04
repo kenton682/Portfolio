@@ -1,5 +1,5 @@
 import React from "react";
-import Video from "../../Videos/background.mp4";
+import Video from "../../Videos/Blue.mp4";
 import { Link } from "react-scroll";
 import "./HeroSection.css";
 

@@ -25,20 +25,32 @@
   transform: rotateY(180deg);
 }
 
+.fade {
+  display: none;
+}
+
 .card .front {
-  background-color: pink;
+  transition-delay: 0.3s;
+  background-color: #262626;
 }
 
 .card .back {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: purple;
+  background-color: #262626;
   transform: rotateY(180deg);
 }
 .card .back a {
-  margin: 0;
-  padding-bottom: 20px;
+  font-size: 1rem;
+}
+
+.card .back .button-container {
+  display: flex;
+  height: 150px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .image {
@@ -53,13 +65,25 @@ figure {
 }
 
 .front p {
+  pointer-events: none;
+  color: #ccb3ff;
   margin: 0px;
+  padding: 15px;
+  font-size: 0.9rem;
+}
+
+.front h1 {
+  color: #9966ff;
+  margin: 0px;
+  padding: 10px;
+  font-size: 1.2rem;
 }
 
 .button {
+  box-sizing: border-box;
   text-decoration: none;
-  border-radius: 50px;
-  background: purple;
+  border-radius: 40px;
+  background: #b38600;
   white-space: nowrap;
   padding: 12px 40px;
   color: black;
@@ -69,12 +93,8 @@ figure {
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
-.button:hover {
-  transition: all 0.2s ease-in-out;
-  background-color: pink;
-}
 
 .card .back a:hover {
   transition: all 0.2s ease-in-out;
-  background-color: pink;
+  background-color: #e6ac00;
 }

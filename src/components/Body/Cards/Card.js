@@ -11,12 +11,14 @@ const Card = ({ title, frontContent, backContent, image, demo, file }) => {
           <p>{frontContent}</p>
         </figure>
         <figure className="back">
-          <a className="button" href={demo}>
-            demo
-          </a>
-          <a className="button" href={file}>
-            File
-          </a>
+          <div className="button-container">
+            <a className="button" href={demo}>
+              demo
+            </a>
+            <a className="button" href={file}>
+              File
+            </a>
+          </div>
         </figure>
       </div>
     </div>

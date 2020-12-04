@@ -9,7 +9,7 @@ const Skills = () => {
       <div className="skills-content">
         <SkillCard
           title={"FRONT END"}
-          img={"images/Netflix.jpg"}
+          img={"images/frontend.png"}
           text1={"JavaScript"}
           text2={"HTML5"}
           text3={"CSS | SASS"}
@@ -17,7 +17,7 @@ const Skills = () => {
         />
         <SkillCard
           title={"DATABASE"}
-          img={"images/Netflix.jpg"}
+          img={"images/database.jpg"}
           text1={"mySQL"}
           text2={"MongoDB"}
           text3={"FireBase"}
@@ -25,7 +25,7 @@ const Skills = () => {
         />
         <SkillCard
           title={"SERVER"}
-          img={"images/Netflix.jpg"}
+          img={"images/server.jpg"}
           text1={"NodeJS"}
           text2={"Python"}
           text3={"FireBase"}
