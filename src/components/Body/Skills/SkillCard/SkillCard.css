@@ -13,9 +13,9 @@
   transition: all 400ms;
 }
 
-.skillcard:hover {
+/* .skillcard:hover {
   transform: scale(1.1);
-}
+} */
 .skillcard-container {
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);

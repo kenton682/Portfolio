@@ -5,6 +5,7 @@
   width: 200px;
   height: 300px;
   padding: 50px;
+  transition: all 300ms;
 }
 
 .card figure {
@@ -17,16 +18,13 @@
 .card {
   width: 100%;
   height: 100%;
-  transition: transform 1s ease-in-out;
+  transition: transform 0.5s ease-in-out;
   transform-style: preserve-3d;
 }
 
-.card-container:hover .card {
-  transform: rotateY(180deg);
-}
-
-.fade {
-  display: none;
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.15);
 }
 
 .card .front {
@@ -39,7 +37,6 @@
   justify-content: center;
   align-items: center;
   background-color: #262626;
-  transform: rotateY(180deg);
 }
 .card .back a {
   font-size: 1rem;
@@ -54,7 +51,7 @@
 }
 
 .image {
-  width: 200px;
+  width: 100%;
   height: 100px;
 }
 
@@ -80,6 +77,8 @@ figure {
 }
 
 .button {
+  text-align: center;
+  width: 120px;
   box-sizing: border-box;
   text-decoration: none;
   border-radius: 40px;
@@ -92,9 +91,4 @@ figure {
   border: none;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-}
-
-.card .back a:hover {
-  transition: all 0.2s ease-in-out;
-  background-color: #e6ac00;
 }
